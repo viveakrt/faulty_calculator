@@ -1,17 +1,11 @@
 print("Enter 1st number:")
 num1 = int(input())
-print("Enter the operator: (+,-,*,/,**)")
+print("Enter the operator: (+,-,*,/,**,%)")
 operator = input()
 print("Enter 2nd number:")
 num2 = int(input())
 
-if num1==45 and num2 ==3 and operator =='*':
-    print("555")
-elif num1==56 and num2 ==9 and operator=='+':
-    print('77')
-elif num1==56 and num2==6 and operator=='/':
-    print('4')
-elif operator == '+':
+if operator == '+':
     plus = num1+num2
     print('The ans is =',plus)
 elif operator == '-':
