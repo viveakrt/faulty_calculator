@@ -1,3 +1,4 @@
+import math
 print("Enter 1st number:")
 num1 = int(input())
 print("Enter the operator: (+,-,*,/,**,%)")
@@ -23,5 +24,8 @@ elif operator == '**':
 elif operator == '%':
     modulas = num1%num2
     print('The ans is =', modulas)
+elsif operator == 'sqr':
+    square = math.sqr(num1)
+    print('The ans is =', square)
 else:
     print("Error! Please check your input")
